@@ -1,0 +1,123 @@
+.navbar-brand img {
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.nav-link img {
+    width: 20px;
+}
+
+.navs {
+    background-image: linear-gradient(pink, white)
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    transition: all .4s;
+}
+.btn1:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.btn1 span {
+    color: hsl(234, 12%, 69%);
+}
+
+.home {
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 122.1vh;
+}
+
+.home .home-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.home-text h1 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.home-text .pp {
+    padding: 10px 0px;
+}
+
+.home .img-edit {
+    height: 90%;
+    margin-left: 50px;
+}
+
+.about .about-text {
+    padding: 150px 40px;
+}
+
+.about .about-text h1 {
+    color: black;
+    font-weight: 700;
+}
+
+.about .about-text p {
+    color:  hsl(233, 8%, 62%);
+}
+
+.about img {
+    padding: 20px 0px;
+}
+
+
+
+
+@media (max-width: 750px){
+    .navbar-brand img {
+        margin-left: 0px;
+    }
+    
+    .navbar-nav {
+        margin-right: 0px;
+    }
+    
+    .home-text h1 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .home .img-edit {
+        height: 100%;
+        margin-left: 0px;
+    }
+
+    .home {
+        background-image: url(../img/Background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80.7vh;
+    }
+
+    .about .about-text {
+        padding: 0px 40px;
+    }
+    
+    .about .about-text h1 {
+        color: black;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .about .about-text p {
+        color:  hsl(233, 8%, 62%);
+    }
+    
+    .about img {
+        padding: 20px 0px;
+    }   
+    
+
+    
+}
