@@ -30,9 +30,8 @@
 
 .home {
     background-image: url(../img/Background.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
- 
 }
 
 .home .home-text {
@@ -47,11 +46,6 @@
 
 .home-text .pp {
     padding: 10px 0px;
-}
-
-.home .img-edit {
-    height: 90%;
-    margin-left: 50px;
 }
 
 .about .about-text {
@@ -86,17 +80,6 @@
     .home-text h1 {
         font-weight: 700;
         font-size: 32px;
-    }
-
-    .home .img-edit {
-        height: 100%;
-        margin-left: 0px;
-    }
-
-    .home {
-        background-image: url(../img/Background.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
     .about .about-text {
