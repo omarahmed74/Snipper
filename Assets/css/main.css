@@ -32,7 +32,7 @@
     background-image: url(../img/Background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 122.1vh;
+ 
 }
 
 .home .home-text {
@@ -97,7 +97,6 @@
         background-image: url(../img/Background.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 80.7vh;
     }
 
     .about .about-text {
